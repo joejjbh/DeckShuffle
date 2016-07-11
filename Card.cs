@@ -1,4 +1,4 @@
-﻿namespace CardProject
+namespace CardProject
 {
     public class Card
     {
@@ -7,12 +7,14 @@
         
         public Card(string cardValue, string cardSuit)
         {
+            // consturctor
             suit = cardSuit;
             value = cardValue;
         }
 
         public override string ToString()
         {
+            // how cards are to be displayed
             return value + " of " + suit;
         }
     }
